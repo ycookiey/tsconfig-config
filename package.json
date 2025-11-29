@@ -1,0 +1,16 @@
+{
+    "name": "@ycookiey/tsconfig",
+    "version": "1.0.0",
+    "description": "My base tsconfig. Strict, modern, and ready for Next.js/Vite.",
+    "main": "base.json",
+    "license": "MIT",
+    "keywords": [
+        "tsconfig",
+        "typescript",
+        "config",
+        "ycookiey"
+    ],
+    "publishConfig": {
+        "access": "public"
+    }
+}
