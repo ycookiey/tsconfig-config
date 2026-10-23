@@ -1,14 +1,20 @@
 {
     "name": "@ycookiey/tsconfig",
     "version": "1.0.0",
-    "description": "My base tsconfig. Strict, modern, and ready for Next.js/Vite.",
+    "description": "Shared strict TypeScript config for apps that a bundler builds: tsc checks the types and emits nothing",
     "main": "base.json",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ycookiey/tsconfig-config.git"
+    },
     "keywords": [
         "tsconfig",
         "typescript",
-        "config",
-        "ycookiey"
+        "config"
+    ],
+    "files": [
+        "base.json"
     ],
     "publishConfig": {
         "access": "public"
